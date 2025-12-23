@@ -15,5 +15,5 @@ jobs:
         uses: ArmanSuperannotate/ci-cd-test@main
         with:
           who-to-greet: "Tester"
-          sa-token: ${{ secrets.SA_TOKEN }}
-          sa-url: ${{ secrets.SA_URL }}
+          sa-token: ${{ vars.SA_TOKEN }}
+          sa-url: ${{ vars.SA_URL }}
