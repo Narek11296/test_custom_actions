@@ -1,0 +1,12 @@
+name: Test My Custom Action
+on: [push, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Run my action from its repo
+        uses: ArmanSuperannotate/ci-cd-test@main # Point to the 'main' branch
+        with:
+          who-to-greet: "Tester"
