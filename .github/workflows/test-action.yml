@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run my action
+      - name: Run my actions
         uses: superannotateai/custom-action-deployment@0.0.1-alpha
         with:
           who-to-greet: "Tester"
