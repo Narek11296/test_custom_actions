@@ -14,7 +14,7 @@ interpreter: "3.11"
 
 # Execution time limit in seconds (300 to 10800)
 
-time_limit: 3
+time_limit: 5
 
 # Concurrency limit (1 to 128)
 
