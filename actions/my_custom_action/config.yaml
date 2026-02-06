@@ -14,7 +14,7 @@ interpreter: "3.11"
 
 # Execution time limit in seconds (300 to 10800)
 
-time_limit: 5
+time_limit: 7
 
 # Concurrency limit (1 to 128)
 
@@ -22,6 +22,3 @@ concurrency: 1
 
 # List of Python libraries to install
 requirements:
-  - "requests>=2.0.0"
-  - "pandas"
-  - "numpy"
